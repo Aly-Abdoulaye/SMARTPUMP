@@ -14,4 +14,4 @@ Use App\Http\controllers\DashboardController;
 |
 */
 
-route::get('/Dashboard',[DashboardController::class,'Dashboard'])->name('Dashboard.index');
+route::get('/',[DashboardController::class,'Dashboard'])->name('Dashboard.index');

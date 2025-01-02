@@ -3,7 +3,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
                 <img src="img/Logo.png" alt="Logo" id="Logo" style="width: 227px; height: 66px; margin: 20px;">
             </a>
 
@@ -60,7 +60,7 @@
 
             <!-- Nav Item - carburants -->
             <li class="nav-item">
-                <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseCarburant"
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCarburant"
                 aria-expanded="true" aria-controls="collapseCarburant">
                     <img src="img/icons/station 1.png" alt=""> 
                     <span>Carburants</span></a>
@@ -95,13 +95,15 @@
             </li>
             <!-- Nav Item - Rapports -->
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link collapsed" href="#"data-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
                     <img src="img/icons/report 1.png" alt="">
                     <span>Rapports</span></a>
             </li>
             <!-- Paramètre -->
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link collapsed" href="#" data-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
                     <img src="img/icons/settings.png" alt="">
                     <span>Paramètre</span></a>
             </li>
